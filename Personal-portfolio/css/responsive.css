@@ -1,0 +1,22 @@
+.contactbtn{
+    transition-duration: 0.5s;
+}
+.contactbtn:hover{
+    transform: scale(1.1);
+    background-color: #66bfbf;
+}
+
+.contact{
+    transition-duration: 0.5s;
+}
+.contact:hover{
+    transform: scale(1.1);
+}
+
+.firstcloud, .secondcloud{
+    transition-duration: 0.5s;
+}
+
+.firstcloud:hover, .secondcloud:hover {
+    transform: scale(1.2);
+}

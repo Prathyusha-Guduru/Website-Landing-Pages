@@ -75,6 +75,8 @@ body{
 
 .skill{
     color:  #11999e;
+    margin: 20px;
+
 }
 
 .mountain{
@@ -83,4 +85,35 @@ body{
 
 .contact{
     display: inline-block;
+}
+
+.heading{
+    margin : 10px auto 10px auto;
+    color:  #11999e;
+}
+.skill-sec{
+    width:50%;
+    margin: 100px auto 100px auto;
+    line-height: 1.5;
+}
+
+/* .skilltxt{
+    text-align: left;
+} */
+
+.skill-img{
+    width: 25%;
+    float:left;
+    margin: 0 20px;
+}
+/* .skill-txt-description{
+    clear : left;
+} */
+
+.profile-pic{
+    margin : 30px auto 10px auto;
+}
+
+.profile-description{
+    margin: 10px auto 30px auto;
 }

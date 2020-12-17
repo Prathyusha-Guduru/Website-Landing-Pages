@@ -10,7 +10,8 @@ body{
     text-align: center;
 }
 .top-container{
-    background-color: #bedcfa;
+    /* background-color: #bedcfa; */
+    background-color: #e4f9f5;
     /* height: 100vh; */
     position: relative;
 }
@@ -57,7 +58,10 @@ body{
 .text{
     padding: 100px 20px 30px 20px;
     /* margin : 20px; */
+    color: #66BFBF;
+    line-height: 1.5;
 }
+
 
 
 
@@ -67,6 +71,10 @@ body{
 }
 .tagline{
     /* font-size: 2.5em; */
+}
+
+.skill{
+    color:  #11999e;
 }
 
 .mountain{

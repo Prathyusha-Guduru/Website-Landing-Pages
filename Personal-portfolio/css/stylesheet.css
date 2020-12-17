@@ -88,12 +88,12 @@ body{
 }
 
 .heading{
-    margin : 10px auto 10px auto;
+    margin : 30px auto 10px auto;
     color:  #11999e;
 }
 .skill-sec{
     width:50%;
-    margin: 100px auto 100px auto;
+    margin: 120px auto 120px auto;
     line-height: 1.5;
 }
 
@@ -104,7 +104,8 @@ body{
 .skill-img{
     width: 25%;
     float:left;
-    margin: 0 20px;
+    margin: 0 30px ;
+    
 }
 /* .skill-txt-description{
     clear : left;
@@ -117,3 +118,50 @@ body{
 .profile-description{
     margin: 10px auto 30px auto;
 }
+
+.border{
+    border-color :  #EAF6F6;
+    border-style: dotted;
+    border-width: 15px;
+    width: 10%;
+    border-radius: 0;
+    border-bottom: #EAF6F6;
+    margin: 0 auto 10px auto;
+}
+
+.meet-description{
+    margin: 10px auto 10px auto;
+}
+
+.meet{
+    margin : 0px auto 20px auto;
+}
+
+.footer{
+    background-color: #66BFBF;
+    padding: 40px;
+    margin: 50px 0 0 0 ;
+}
+
+.copyrights{
+    color : #EAF6F6;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    color: #11999e;
+    text-decoration: none;
+    padding: 20px 20px 30px 0;
+}
+
+.contactbtn{
+    margin: 50px auto 10px auto;
+    background-color: #11999e;
+    width: 12%;
+    padding : 10px 0 10px 0;
+    color: #EAF6F6;
+    border-radius: 8px;
+}
+    

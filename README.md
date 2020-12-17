@@ -6,6 +6,12 @@ Random website designs through which I practised html, css and vanilla js.
 <a href = "https://color-paletter.netlify.app/">
     <img src = "color-paletter\assets\images\Colors 🎨.png" alt = "Screenshot">
 </a>
+<br>
 
+## Personal Page : 
 
-
+<br>
+<a href = "https://prathyusha.netlify.app/">
+    <img src = "Personal-portfolio\assets\images\Landing page screenshot.png" alt = "Screenshot">
+</a>
+<br>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.top-container{
+    background-color: #bedcfa;
+    /* height: 100vh; */
+    position: relative;
+}
+
+/* .firstcloud{
+    position: absolute;
+    top : 70px;
+    left: 180px;
+    transition-duration: 0.5s;
+    
+}
+
+.firstcloud:hover{
+    transform: scale(2);
+
+}
+
+.secondcloud{
+    position: absolute;
+    bottom: 70px;
+    right: 90px;
+    transition: 0.5s;
+}
+
+.secondcloud:hover{
+    transform: scale(2);
+} */
+
+.firstcloud{
+    position: absolute;
+    top : 30px;
+    left: 350px;
+    transform: scale(1.5);
+}
+
+.secondcloud{
+    position: absolute;
+    top : 230px;
+    right: 350px;
+    transform: scale(1.5);
+}
+
+
+.text{
+    padding: 100px 20px 30px 20px;
+    /* margin : 20px; */
+}
+
+
+
+.cursive{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+}
+.tagline{
+    /* font-size: 2.5em; */
+}
+
+.mountain{
+    height: 500px;
+}
+
+.contact{
+    display: inline-block;
+}

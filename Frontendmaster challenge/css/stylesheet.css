@@ -128,10 +128,16 @@ span{
 
 
 .info-stat{
-    font-size: 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.stat{
+    font-weight: 900;
 }
 
 .stat-name{
     font-size: 12px;
+    color :hsl(227, 10%, 46%);
 }
 

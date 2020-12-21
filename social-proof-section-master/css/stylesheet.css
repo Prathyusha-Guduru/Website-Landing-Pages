@@ -4,20 +4,32 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    background-color: paleturquoise;
-}
-
-.top{
-    height: 50%;
-    width: 90%%;
-    /* background-color: aquamarine; */
-    margin: 10px;
-}
 
 .top-bg{
     position: absolute;
     left : -70px;
+    top:0px;
+}
+
+.bottom-bg{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: paleturquoise;
+}
+
+.box{
+    border : 2px black solid;
+    margin: 20px auto;
 }

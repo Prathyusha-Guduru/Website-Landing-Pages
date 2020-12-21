@@ -63,15 +63,14 @@
 	font-size: 20px;
 }
 
+
 .nav-list{
 	margin: 30px auto;
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.box3{
-	margin-left: 100px;
-}
+
 
 .text{
 	margin: 70px 55px;
@@ -112,4 +111,5 @@
 	background-color: black;
 	padding: 20px 80px;
 }
+
 

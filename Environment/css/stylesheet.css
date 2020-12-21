@@ -6,12 +6,15 @@
 }
 
 .container{
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
 	display: flex;
 }
 .box1{
 	/* width: 100px; */
 	/* background-color: lightcoral; */
-	height: 100vh;
+	height: 100%;
 	width: 6%;
 	display: flex;
 	flex-direction: column;
@@ -36,9 +39,14 @@
 	position: relative;
 	top : 0px;
 	/* left : 6%; */
-	max-height: 100vh;
+	height: 100%;
 	overflow: hidden;
 	position: relative;
+}
+
+.box2>img{
+	height: 100%;
+
 }
 
 .img-text{
@@ -67,7 +75,7 @@
 
 .text{
 	margin: 70px 55px;
-	width: 60%;
+	width: 70%;
 	float: left;
 	
 }
@@ -84,11 +92,15 @@
 }
 
 .bottom-img{
-	
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
 
+	height: 200px;
+}
+
+.bottom-img>img{
+	height: 100%;
 }
 
 .button{

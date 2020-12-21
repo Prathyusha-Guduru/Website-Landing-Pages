@@ -5,9 +5,12 @@
 	font-family: 'Kumbh Sans', sans-serif;
 }
 
+.container{
+	display: flex;
+}
 .box1{
 	/* width: 100px; */
-	background-color: lightcoral;
+	/* background-color: lightcoral; */
 	height: 100vh;
 	width: 6%;
 	display: flex;
@@ -26,3 +29,75 @@
 	bottom : 70px;
 	font-size: 18px;
 }
+
+.box2{
+	/* background-color: lightgreen; */
+	width: 40%;
+	position: relative;
+	top : 0px;
+	/* left : 6%; */
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.img-text{
+	position: absolute;
+	bottom: 30px;
+	color: white;
+	right: 50px;
+	font-size: 40px;
+}
+
+.nav-list-ele{
+	display: inline;
+	padding: 10px 50px;
+	font-size: 20px;
+}
+
+.nav-list{
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.box3{
+	margin-left: 100px;
+}
+
+.text{
+	margin: 70px 55px;
+	width: 60%;
+	float: left;
+	
+}
+
+.main-line{
+	font-size: 65px;
+	line-height: 1.4;
+	margin: 0 70px;
+}
+
+.info-text{
+	margin: 30px 0 30px 70px;
+	line-height: 1.4;
+}
+
+.bottom-img{
+	
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+
+}
+
+.button{
+	position: absolute;
+	bottom: 150px;
+	margin-left: 100px;
+	text-align: center;
+	color: aliceblue;
+	background-color: black;
+	padding: 20px 80px;
+}
+

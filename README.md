@@ -28,6 +28,7 @@ Random website designs through which I practised html, css and vanilla js.
 
 <br>
 
-<img src = "Environment/assets/images/Screenshot .png" alt = "Screenshot">
-
+<a href = "https://cranky-wescoff-7ebeca.netlify.app/">
+    <img src = "Environment/assets/images/Screenshot .png" alt = "Screenshot">
+</a>
 <br>

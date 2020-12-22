@@ -32,3 +32,12 @@ Random website designs through which I practised html, css and vanilla js.
     <img src = "Environment/assets/images/Screenshot .png" alt = "Screenshot">
 </a>
 <br>
+
+## Cafe: 
+
+<br>
+
+<a href = "https://musing-borg-6238bd.netlify.app/">
+    <img src = "Cafe/assets/images/Screenshot.png" alt = "Screenshot">
+</a>
+<br>

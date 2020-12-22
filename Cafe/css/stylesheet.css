@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Piazzolla', serif;
 }
 
 .container{
@@ -14,12 +14,12 @@
 
 .navbar{
 	width: 100%;
-	height: 130px;
+	height: 100px;
 	/* background-color: lightcoral; */
 	/* display: inline; */
 	display: flex;
-	position: absolute;
-	top : 10px;
+	/* visibility: hidden; */
+	
 }
 
 .left-nav-bar{
@@ -46,6 +46,9 @@
 li{
 	display: inline;
 	font-size: 20px;
+	/* background-color: lightcoral;
+	padding: 50px 0; */
+	
 }
 
 .logo>img{
@@ -58,11 +61,14 @@ li{
 
 .logo{
 	position: absolute;
-	left  : 600px;
-	top: 0;
+	left: 600px;
+	top: 0px;
 	flex: 0.25;
 	margin: 0;
-	bottom: 50px;
+	height: 100px;
+	display: flex;
+	/* background-color: lightcoral; */
+	align-items: center;
 }
 
 
@@ -93,35 +99,48 @@ hr{
 	color: white;
 	width: 80%;
 	margin: 10px auto;
+	/* visibility: hidden; */
 }
 
 .bottom{
-	margin-top: 50px;
+	margin-top: 120px;
 	display: flex;
 }
 
 .left{
-	padding: 30px;
+	padding: 30px 0px 30px 30px;
+	margin-left: 100px;
 }
 
 .right{
 	text-align: right;
-	margin: 40px 140px 0 0;
+	margin: 80px 150px 0 0;
+	/* visibility: hidden;
+	animation: right-animation 1s timing-function delay iteration-count direction fill-mode; */
 }
 
 .txt{
-	font-size: 35px;
+	font-size: 30px;
 	line-height: 1.5;
 }
 
 .button{
-	margin-top: 50px;
-	background-color: #435c71;
+	margin-top: 70px;
+	background-color: #293946;
 	float: right;
 	width: 200px;
 	padding: 20px;
+	transition-duration: 200ms;
 }
 
 .button>p{
 	text-align: center;
 }
+
+.button:hover{
+	/* transform: rotateY(180deg); */
+	color: #000;
+	border: 1px solid #293946;
+	background-color: #7cc4cc;
+}
+

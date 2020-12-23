@@ -35,11 +35,21 @@ Random website designs through which I practised html, css and vanilla js.
 </a>
 <br>
 
+
 ## Cafe: 
 
 <br>
 
 <a href = "https://musing-borg-6238bd.netlify.app/">
     <img src = "Cafe/assets/images/Screenshot.png" alt = "Screenshot">
+</a>
+<br>
+
+## PeaceTreks: 
+
+<br>
+
+<a href = "https://cranky-wescoff-7ebeca.netlify.app/">
+    <img src = "PeaceTreks/assets/images/Screenshot 2.png" alt = "Screenshot">
 </a>
 <br>

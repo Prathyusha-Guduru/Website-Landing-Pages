@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	height:100vh;
+	width: 100%;
+}
+
+.background{
+	background-color: lightcoral;
+	background-image: url("../assets/images/Background.jpg");
+	height: 100%;
+}

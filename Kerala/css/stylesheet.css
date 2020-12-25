@@ -17,6 +17,34 @@
 }
 
 .header{
-	background-color: lightpink;
+	/* background-color: lightpink; */
+	height: 50px;
 }
 
+.center-text{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 40px;
+}
+
+li{
+	float: left;
+	/* background-color:lightgrey; */
+	display: inline;
+	padding-right: 40px;
+	font-size: 18px;
+}
+
+.menu{
+	margin: 0 0 0 20px;
+}
+
+.menu-icon{
+	height: 20px;
+}

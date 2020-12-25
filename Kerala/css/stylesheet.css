@@ -9,7 +9,7 @@
 	background-color: lightcoral;
 	height: 100vh;
 	width: 100%;
-	background-image: url("../assets/images/Background.jpg");
+	background-image: url("../assets/images/background.png");
 }
 
 .header{
@@ -47,24 +47,37 @@ li{
 .center{
 	margin-top : 60px;
 	/* background-color: lightseagreen; */
-	/* display: flex; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: lightgoldenrodyellow; */
 	height: 400px;
 }
 
 .center-text{
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	justify-content: center;
-	
-	align-items: center;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .top-line{
+	position: absolute;
+	top: 200px;
+	left : 650px;
 	font-size: 60px;
 }
 
 .bottom-line{
 	font-size: 110px;
+}
+
+
+.social-media{
+	/* background-color: lightpink; */
+	width: 40px;
+	margin-left:20px;
+}
+
+.social-media-icon{
+	display: block;
+	margin-bottom: 30px;
+	height: 25px;
 }

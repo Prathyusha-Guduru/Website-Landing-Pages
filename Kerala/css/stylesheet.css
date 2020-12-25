@@ -30,7 +30,7 @@
 	justify-content: space-between;
 	align-items: center;
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 li{
@@ -47,4 +47,28 @@ li{
 
 .menu-icon{
 	height: 20px;
+}
+
+.search{
+	margin: 0 20px 0 0;
+}
+
+.search-icon{
+	height: 20px;
+}
+
+.center{
+	/* background-color: lightskyblue; */
+	display: flex;
+	align-items: center;
+	height: 50%;
+	margin-top: 100px;
+}
+
+.center-text{
+	margin: 0 auto;
+	/* background-color: lightpink; */
+	font-size: 70px;
+	transform: rotate(-3deg)
+
 }

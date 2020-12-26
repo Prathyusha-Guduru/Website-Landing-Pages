@@ -27,6 +27,7 @@ li{
 	padding-right: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	font-weight: bold;
 }
 
 .menu{
@@ -81,4 +82,45 @@ li{
 	display: block;
 	margin-bottom: 30px;
 	height: 25px;
+}
+
+.bottom{
+	background-color: lightseagreen;
+	height: 200px;
+	width: 90%;
+	margin: 33px auto 0 auto;
+	/* position: absolute;
+	top: 100px; */
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+	height: 100%;
+	width: 300px;
+	background-color: lightpink;
+	margin-right: 30px;
+	/* filter: blur(8px);
+	-webkit-filter: blur(8px); */
+}
+
+
+.card-icon{
+	float: left;
+	margin : 5px 10px 10px 10px;
+	background-color: lightgrey;
+}
+.card-heading{
+	float: center;
+	margin : 5px 10px 5px 10px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: lightgreen;
+}
+
+.card-text{
+	text-align: left;
+	background-color: lightskyblue;
 }

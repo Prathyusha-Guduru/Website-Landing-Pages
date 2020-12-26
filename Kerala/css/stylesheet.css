@@ -9,7 +9,7 @@
 	background-color: lightcoral;
 	height: 100vh;
 	width: 100%;
-	background-image: url("../assets/images/overlayed-background.png");
+	background-image: url("../assets/images/image\ \(1\).png");
 	overflow: hidden;
 }
 
@@ -85,7 +85,7 @@ li{
 }
 
 .bottom{
-	background-color: lightseagreen;
+	/* background-color: lightseagreen; */
 	height: 200px;
 	width: 90%;
 	margin: 33px auto 0 auto;
@@ -94,22 +94,28 @@ li{
 	display: flex;
 	justify-content: space-around;
 	font-family: 'Montserrat', sans-serif;
+
 }
 
 .card{
 	height: 100%;
-	width: 300px;
-	background-color: lightpink;
+	width: 350px;
+	/* background-color: lightpink; */
 	margin-right: 30px;
-	/* filter: blur(8px);
-	-webkit-filter: blur(8px); */
+	backdrop-filter: blur(5px);
+	/* border: 2px white solid; */
+	background-color: gray;
+	border-radius: 10px 10px 0 0;
+	opacity: 0.5;
+	z-index: 1;
+
 }
 
 
 .card-icon{
 	float: left;
 	margin : 5px 10px 10px 10px;
-	background-color: lightgrey;
+	/* background-color: lightgrey; */
 }
 .card-heading{
 	float: center;
@@ -117,10 +123,24 @@ li{
 	letter-spacing: 10px;
 	font-size: 20px;
 	font-weight: bold;
-	background-color: lightgreen;
+	/* background-color: lightgreen; */
 }
 
 .card-text{
 	text-align: left;
-	background-color: lightskyblue;
+	/* background-color: lightskyblue; */
+	margin: 20px 10px 20px 10px;
+	font-size: 15px;
+
+}
+
+.card-content{
+	/* background-color: lawngreen; */
+	height: 90%;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	z-index: 3;
+	font-weight: bold;
+	color: white;
 }

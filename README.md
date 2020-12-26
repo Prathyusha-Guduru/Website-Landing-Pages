@@ -43,7 +43,16 @@ Random website designs through which I practised html, css and vanilla js.
 
 <br>
 
-<a href = "https://cranky-wescoff-7ebeca.netlify.app/">
+<a href = "https://laughing-saha-3a0e82.netlify.app/">
+    <img src = "PeaceTreks/assets/images/Screenshot 2.png" alt = "Screenshot">
+</a>
+<br>
+
+## Kerala: 
+
+<br>
+
+<a href = "https://laughing-saha-3a0e82.netlify.app/">
     <img src = "PeaceTreks/assets/images/Screenshot 2.png" alt = "Screenshot">
 </a>
 <br>

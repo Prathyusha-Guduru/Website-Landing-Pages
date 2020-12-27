@@ -1,7 +1,7 @@
 # Website-Landing-Pages
 Random website designs through which I practised html, css and vanilla js.
 
-<>
+Click on the screeshots to see the live version🔥
 
 ## Color Palette : 
 <br>

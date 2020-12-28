@@ -14,11 +14,11 @@
 	}
 
 	.left-text{
-		background-color: aquamarine;
+		/* background-color: aquamarine; */
 	}
 
 	.left{
-		background-color: lightpink;
+		
 		width: 90%;
 		font-size: 20px;
 	}

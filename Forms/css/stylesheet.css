@@ -22,7 +22,7 @@ label{
 	/* background-color: lightgoldenrodyellow; */
 	height: 90%;
 	width: 50%;
-	margin: 80px 50px 10px 50px;
+	margin: 80px 20px 10px 50px;
 	padding: 100px 0px;
 	color: white;
 }
@@ -34,4 +34,94 @@ label{
 	/* background-color: lightcoral; */
 	font-size: 60px;
 	/* line-height: 2; */
+}
+
+
+.right{
+	height: 80%;
+	width: 53%;
+	/* background-color: lightblue; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.right-text{
+	height: 60%;
+	width: 90%;
+	margin: 2px;
+	/* background-color: lightsalmon; */
+	
+}
+
+.first-line{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 20px 0;
+	/* background-color: lightgreen; */
+}
+
+input{
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px white solid;
+	padding : 15px 0 0 0;
+	width: 200px;
+	color: lightgray;
+}
+
+.name{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	/* margin: 10px 5px ; */
+}
+
+.name label{
+	font-size: 18px;
+	margin: 0px;
+}
+
+.username{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	/* margin: 10px 5px ; */
+}
+
+.username label{
+	font-size: 18px;
+}
+
+.second-line{
+	/* background-color: lightseagreen; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 2px 0px 0px 100px;
+}
+
+.second-line input{
+	width: 448px;
+}
+
+.third-line{
+	/* background-color: lightpink; */
+	margin:20px 0 0 100px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.third-line input{
+	width: 448px;
+}
+
+.submit-button{
+	margin: 30px 0px 0px 95px;
+	background-color: transparent;
+	padding: 15px 50px;
+	border-radius: 10px;
+	border: 2px solid white;
+	color: white;
 }

@@ -3,6 +3,7 @@ Random website designs through which I practised html, css and vanilla js.
 
 Click on the screeshots to see the live version🔥
 
+
 ## Color Palette : 
 <br>
 <a href = "https://color-paletter.netlify.app/">
@@ -62,5 +63,12 @@ Click on the screeshots to see the live version🔥
 <br>
 <a href = "https://silly-swanson-8acda6.netlify.app/">
     <img src = "Forms/assets/images/Screenshot.png" alt = "Screenshot">
+</a>
+<br>
+
+## Happy New Year:
+<br>
+<a href = "https://wishes-from-prathyusha.netlify.app/">
+    <img src = "https://media1.giphy.com/media/iq9S5bsNeASIVSFVfl/giphy.gif" alt = "Screenshot" width = "100%">
 </a>
 <br>

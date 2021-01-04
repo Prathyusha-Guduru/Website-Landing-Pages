@@ -1,3 +1,4 @@
 {
-	"liveServer.settings.port": 5501
+	"liveServer.settings.port": 5501,
+	"python.pythonPath": "C:\\Users\\prath\\anaconda3\\envs\\python-cvcourse\\python.exe"
 }

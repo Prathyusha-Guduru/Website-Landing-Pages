@@ -1,8 +1,8 @@
-//Variables
+//*******************************Variables*******************************
 // let num = "yo";
 // console.log(num)
 
-//Constants
+//*******************************Constants*******************************
 // const interestRate = 0.3;
 // interestRate = 1;
 // console.log(interestRate);
@@ -22,7 +22,7 @@
 // let person = {namePerson : "Prathyusha",agePerson:18};
 // console.log(person.namePerson);
 
-// Arrays
+//*******************************Arrays*******************************
 
 
 // let selectedColors = ['red','blue'];
@@ -39,13 +39,89 @@
 
 // greet('Prathyu');
 
-// OBJECT LITERALS
+//******************************* OBJECT LITERALS*******************************
 
-const person = {firstName:"Prathyusha",lastName : "Guduru",age : 18,hobbies: ['music','dance']}
-console.log(person);
+// const person = {firstName:"Prathyusha",lastName : "Guduru",age : 18,hobbies: ['music','dance']}
+// console.log(person);
 
 //Always use const unless you know you are going to re-asssign
-const score = 0;
-console.log(score);
-score+=1;
-console.log(score);
+// const score = 0;
+// console.log(score);
+// score+=1;
+// console.log(score);
+
+
+//*******************************Array of objects*******************************
+
+// const todo = [
+// 	{id : 1, text : "Clean your room", isDone : false},
+// 	{id : 2, text : "Clean the bathroom", isDone: false},
+// 	{id : 3, text : "Empty the bin", isDone : false}
+// ]
+// console.log(todo[0].text);
+
+// const JSON_todo = JSON.stringify(todo)
+// console.log(JSON_todo);
+
+
+//*******************************LOOPS*******************************
+
+// for(let x =0;x<10;x++){
+// 	console.log(`For loop number is ${x}`);
+// }
+
+// let x=0;
+// while(x<10){
+// 	console.log(`While loop number is ${x}`);
+// 	x++;
+// }
+
+// arr = [1,2,3,4,45,56,78]
+
+// for(let x=0;x<arr.length;x++){
+// 	console.log(`The element at ${x} is ${arr[x]}`);
+// }
+
+// for(let i of arr){
+// 	console.log(i);
+// }
+
+//*******************************forEach, map, filter*******************************
+const todo = [
+	{id : 1, text : "Clean your room", isDone : false},
+	{id : 2, text : "Clean the bathroom", isDone: false},
+	{id : 3, text : "Empty the bin", isDone : false}
+];
+
+// todo.forEach(function (i) {
+// 	console.log(i.text);
+// })
+
+
+// const todoText =  todo.map(function(i){
+// 	return i.text;
+// });
+
+// console.log(todoText);
+
+
+// const toBeDone = todo.filter(function (i) {
+// 	return i.isDone === false;
+// }).map(function (j) {
+// 	return j.text;
+// });
+
+// console.log(toBeDone);
+
+//*******************************CONDITIONALS*******************************
+
+const x = 15;
+if(x===10){
+	console.log("x is 10");
+}
+else if(x>10){
+	console.log('x is more than 10');
+}
+else {
+	console.log('x is not 10');
+}

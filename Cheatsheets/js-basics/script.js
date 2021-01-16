@@ -30,8 +30,7 @@
 // selectedColors[3] = 4;
 // console.log(selectedColors.length);
 
-// FUNCTIONS
-
+//*******************************FUNCTIONS*******************************
 // function greet(name)
 // {
 // 	console.log("Hello " + name);
@@ -125,3 +124,33 @@ else if(x>10){
 else {
 	console.log('x is not 10');
 }
+
+//*******************************TERENARY OPERATORS*******************************
+// condition ? what to do if the condition is satisfied(if) : what to do if not satisfied(else)
+x>10 ? console.log('x is greater than 10') : console.log('x is less than 10') ;
+
+const color = x>10 ? 'red' : 'blue';
+console.log(color);
+
+
+//*******************************SWITCH STATEMENT*******************************
+switch (color) {
+	case 'red':
+		console.log('color is red');
+		break;
+	case 'blue':
+		console.log('color is blue');
+		break
+
+	default:
+		console.log('color is not red and blue');
+		break;
+}
+
+
+//******************************* ARROW FUNCTIONS*******************************
+const addNum = (num1,num2) => (num1+num2);
+console.log(addNum(1,2));
+
+const addHello = firstName => ("Hello " + firstName);
+console.log(addHello("Prathyusha"));

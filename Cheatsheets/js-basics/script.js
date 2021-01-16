@@ -154,3 +154,48 @@ console.log(addNum(1,2));
 
 const addHello = firstName => ("Hello " + firstName);
 console.log(addHello("Prathyusha"));
+
+// //******************************* OOP *******************************
+// //Constructor function
+// function Person(firstName, lastName,dob){
+// 	this.firstName = firstName;
+// 	this.lastName = lastName;
+// 	this.dob = new Date(dob);  
+
+// }
+
+// Person.prototype.getBirthYear = function(){
+// 	return this.dob.getFullYear();
+// }
+// Person.prototype.getFullName = function(){
+// 	return this.firstName + " " + this.lastName;
+// }
+
+// //Instantiate Object
+// //Date format ===> mm-dd-yyyy
+// const p1 = new Person('Naina','Eskebo','4-28-2002');
+// const p2 = new Person('Laara', 'Kosiba','5-16-2012');
+// console.log(p1);
+
+
+//******************************* ES6 CLASSES *******************************
+
+class Person{
+	constructor(firstName,lastName,dob){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dob = new Date(dob);
+	}
+
+	getBirthYear(){
+		return this.dob.getFullYear();
+	}
+
+	getFullName(){
+		return this.firstName + ' ' + this.lastName;
+	}
+}
+
+const p1 = new Person('Naina','Eskebo','4-28-2002');
+const p2 = new Person('Laara', 'Kosiba','5-16-2012');
+console.log(p1);

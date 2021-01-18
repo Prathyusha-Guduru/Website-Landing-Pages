@@ -199,3 +199,5 @@ class Person{
 const p1 = new Person('Naina','Eskebo','4-28-2002');
 const p2 = new Person('Laara', 'Kosiba','5-16-2012');
 console.log(p1);
+
+
